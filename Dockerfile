@@ -2,7 +2,7 @@
 FROM rocker/r-base:latest
 
 # change maintainer here
-LABEL maintainer="Peter Solymos <peter@analythium.io>"
+LABEL maintainer="Raphael Simon"
 
 # add system dependencies for packages as needed
 RUN apt-get update && apt-get install -y --no-install-recommends \
